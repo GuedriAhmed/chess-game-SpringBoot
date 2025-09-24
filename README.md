@@ -67,9 +67,6 @@ For Create Game Check invitation Endpoints (Game created automatically when invi
 ### . Change game status
 **PUT** http://localhost:8080/api/games/update-status/1?status=IN_PROGRESS
 
-<img width="1045" height="774" alt="image" src="https://github.com/user-attachments/assets/90be8ab7-21a1-4841-8818-6f68394133d3" />
-
-
 <img width="1044" height="579" alt="image" src="https://github.com/user-attachments/assets/4f02fc70-283d-4f2a-917c-7e11dab99fc3" />
 
 ## Move Endpoints
