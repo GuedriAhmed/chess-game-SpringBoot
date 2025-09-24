@@ -20,7 +20,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        // Endpoint for WebSocket handshake
-        registry.addEndpoint("/ws").setAllowedOriginPatterns("*").withSockJS();
+        registry.addEndpoint("/ws") // this is your SockJS endpoint
+                .setAllowedOriginPatterns("http://localhost:4200") // allow Angular dev server
+                .withSockJS();
     }
 }
