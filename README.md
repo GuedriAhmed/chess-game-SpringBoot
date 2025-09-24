@@ -75,6 +75,12 @@ For Create Game Check invitation Endpoints (Game created automatically when invi
 **POST** http://localhost:8080/api/moves/create
 <img width="1063" height="613" alt="image" src="https://github.com/user-attachments/assets/512bcbca-37d3-4e78-b0f5-250a8019de80" />
 
+### . Get Moves By game 
+**Get** http://localhost:8080/api/moves/game/1
+<img width="1456" height="957" alt="image" src="https://github.com/user-attachments/assets/92808855-f723-4455-872a-3a555bd77cf6" />
+
+
+
 ## Invitation Endpoints
 
 ### . Send Invitation
